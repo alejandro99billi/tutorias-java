@@ -2,7 +2,7 @@ package dto;
 
 import interfaces.ExtendedPerson;
 
-public class Admin implements ExtendedPerson {
+public class Admin extends BasePerson implements ExtendedPerson {
     @Override
     public String getRole() {
         return null;
