@@ -17,4 +17,6 @@ public class Admin implements ExtendedPerson {
     public int getAge() {
         return 0;
     }
+
+
 }
